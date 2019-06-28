@@ -159,7 +159,7 @@
             "publisher": "MicrosoftWindowsServer",
             "offer": "WindowsServer",
             "sku": "[parameters('windowsOSVersion')]",
-            "version": "[parameters('OSVersion']"
+            "version": "[parameters('OSVersion')]"
           },
           "osDisk": {
             "createOption": "FromImage"
