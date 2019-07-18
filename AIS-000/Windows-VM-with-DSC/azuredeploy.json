@@ -28,6 +28,9 @@
         "avSetName": {
           "type": "string"
         },
+        "extensionVersion": {
+          "type": "string"
+        },
         "dscConfigurationUrl": {
           "type": "string"
         },
@@ -216,7 +219,7 @@
             "properties": {
                 "publisher": "Microsoft.Powershell",
                 "type": "DSC",
-                "typeHandlerVersion": "2.75",
+                "typeHandlerVersion": "[parameters('extensionVersion')]",
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "wmfVersion": "latest",
